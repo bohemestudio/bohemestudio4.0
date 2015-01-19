@@ -1,0 +1,399 @@
+/*
+BOHEMESTUDIO
+
+	Version: 4.0 November 2014;
+	Author: Miguel ARG;
+*/
+
+
+/* GENERAL STYLES */
+/* ============================== */
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif, Arial;
+}
+
+html{
+	font-family: Arial;
+	font-size: 100%;
+}
+
+body{
+	top: 0 !important;
+}
+
+.content,
+#content{
+	margin-top: 20px;
+}
+
+
+.go-top-link.active{
+	bottom: 11px;
+}
+
+.go-top-link img{
+	width: 75px;
+}
+
+
+/* HEADER */
+/* ============================== */
+
+.main-header{
+	position: relative;
+	top: 0;
+	height: auto;
+}
+
+.main-header-clone{
+	display: none;
+}
+
+/*nav toggle*/
+.main-header .nav-toggle{
+	float: right;
+}
+
+.nav-toggle { 
+	cursor: pointer; 
+	padding: 40px 50px 40px 18px;
+	background: #d9561c;
+}
+
+.nav-toggle span, 
+.nav-toggle span:before, 
+.nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+}
+
+.nav-toggle span:before {
+  top: -10px; 
+}
+
+.nav-toggle span:after {
+  bottom: -10px;
+}
+
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-toggle.active span {
+  background-color: transparent;
+}
+
+.nav-toggle.active span:before, .nav-toggle.active span:after {
+  top: 0;
+}
+
+.nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+.nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+
+
+
+.header-search-nav{
+	display: none;
+	width: 100%;
+}
+
+/*search*/
+.main-header form{
+	width: 100%;
+	background: #333C4E;
+	margin: 0;
+	padding: 5px 0 10px 0;
+	text-align: center;
+	border-bottom: 1px solid #4A5771;
+}
+
+.main-header form input[type="text"]{
+	width: 200px;
+	margin-left: 30px;
+}
+
+.main-header form input[type="image"]{
+	position: relative;
+	top: 8px;
+	left: -33px;
+}
+
+/*navigation*/
+.main-nav{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	background: #333C4E;
+}
+
+.main-nav > ul > li{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #4A5771;
+}
+
+.main-nav > ul > li > a{
+	text-align: center;
+	width: 100%;
+	line-height: 1em;
+	padding: 10px 0;
+	color: #ffffff;
+	position: relative;
+	z-index: 1000;
+}
+
+.main-nav ul ul{
+	background: #4A5771;
+	position: relative;
+	top: 0;
+	opacity: 1;
+	visibility: visible;
+	padding: 20px 10%;
+	width: 80%;
+	display: inline-block;
+	box-shadow: none;
+}
+
+.main-nav ul ul:before{
+	top: 0;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(51, 60, 78, 0);
+	border-top-color: #333C4E;
+	border-width: 10px;
+	margin-left: -10px;	
+}
+
+.main-nav ul ul:after{
+	display: none;
+}
+
+.main-nav ul ul li{
+	width: 30%;
+	margin: 10px 1.5%;
+	float: left;
+	text-align: center;
+	background: transparent;
+	background: #333C4E;
+}
+
+.main-nav ul ul li a{
+	padding: 5px 5%;
+	border: none;
+	width: 90%;
+	color: #ffffff;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.main-nav ul ul li a:hover{
+	background: #d9561c;
+}
+
+
+/* HOME */
+/* ============================== */
+
+/*hero*/
+.hero{
+	margin-bottom: 30px;
+	background: none;
+}
+
+.hero .snow,
+.hero .stars,
+.hero img{
+	display: none;
+}
+
+.hero .logo{
+	position: relative;
+	width: 90%;
+	margin: 0 5%;
+	padding: 50px 0;
+	left: 0;
+	display: block;
+	color: #333C4E;
+	text-shadow: none;
+}
+
+.hero .logo:hover{
+	color: #333C4E;
+}
+
+.hero .logo p{
+	font-size: 12px;
+}
+
+.hero .logo span{
+	font-size: 24px;
+}
+
+/*slider*/
+.slider{
+	height: 280px;
+}
+
+.slider .swiper-container img{
+	min-height: 280px;
+}
+
+.slider a{
+	width: 15%;
+}
+
+.slider .featured-content h3{
+	font-size: 15px;
+}
+
+
+
+/*home sections*/
+.preview-section ul li,
+.preview-posts ul li:nth-child(2n),
+.preview-posts ul li:nth-child(2n){
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.preview-section.preview-posts{
+	margin-bottom: 0;
+	
+}
+
+.preview-posts ul li{
+	min-height: 0;
+}
+
+.preview-section .article-container{
+	padding: 10px 20px;
+	height: auto;
+}
+
+.preview-section article{
+	min-height: 330px;
+}
+
+.preview-section article footer{
+	position: relative;
+}
+
+/* ARCHIVE */
+/* ============================== */
+.content-archive ul li{
+	width: 100%;
+}
+
+.content-archive ul li:nth-child(2n){
+	margin-left: 0;
+}
+
+
+/* POSTS */
+/* ============================== */
+.post-entry{
+	width: 90%;
+	box-shadow: none;
+}
+
+.post-entry .wp-caption a{
+	display: block;
+	border: 1px solid #eee;
+}
+
+.post-entry .wp-caption img{
+	border: none;
+}
+
+.post-entry .wp-caption-text{
+	border: 1px solid #eee;
+}
+
+/*sidebar*/
+.post-entry-sidebar{
+	width: 90%;
+	padding: 20px 5%;
+	border-top: 1px solid #eee;
+}
+
+.post-entry-sidebar .share-this{
+	margin-bottom: 40px;
+}
+
+.post-entry-sidebar .recent-thumb{
+	float: left;
+}
+
+.post-entry-photo{
+	width: 80%;
+}
+
+
+.post-photo nav div{
+	width: 20%;
+}
+
+.post-about .about-left,
+.post-about .about-right,
+.post-about aside{
+	width: 100%;
+	float: none;
+}
+
+.post-about .follow-links{
+	margin-bottom: 20px;
+}
+
+/* COMMENTS */
+/* ============================== */
+.comments-section{
+	padding: 5%;
+}
+
+.comments-section input[type="text"]{
+	width: 90%;
+}
+
+.comments-section label{
+	margin: 5px 0 40px 0;
+	display: block;
+}
+
+.comments-section textarea{
+	width: 95%;
+}
+
+/* ABOUT */
+/* ============================== */
+.post-about .about-right,
+.post-about .about-left{
+	margin: 0;
+}
+
+.post-about h2{
+	background: #333C4E;
+}
+
+.post-about h2 span{
+	color: #fff;
+	background: transparent;
+}

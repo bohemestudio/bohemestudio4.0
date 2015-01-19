@@ -1,0 +1,18 @@
+/*
+Theme Name: Bohemestudio4.0 
+Theme URI: http://bohemestudio.com http://dessign.net/unittheme
+Description: Bohemestudio 4.0
+Version: Bohemestudio 4.0 - Creative 2.0.1
+Author: Miguel A. Rodriguez 
+Author URI: http://bohemestudio.com 
+Tags: photography, blog, projects, design, ux, development, about
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+html{
+    margin: 0 !important;
+}
+
+#wpadminbar{ display: none !important;}
+

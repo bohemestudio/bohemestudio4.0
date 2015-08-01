@@ -1276,7 +1276,7 @@ a, div{
 .follow-links li a{
 	display: block;
 	background: transparent url(../images/footer/sprite-follow-links.png) no-repeat 0 0;
-	background-size: 150px 30px;
+	background-size: 180px 30px;
 	width: 30px;
 	height: 30px;
 	margin: 5px;
@@ -1305,4 +1305,8 @@ a, div{
 
 .follow-links li .follow-mail{
 	background-position: -120px 0;	
+}
+
+.follow-links li .follow-behance{
+	background-position: -150px 0;	
 }

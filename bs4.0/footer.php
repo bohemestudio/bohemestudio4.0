@@ -13,8 +13,11 @@
 				<a class="follow-instagram animate-this" href="http://instagram.com/bohemestudio" target="_blank">instagram.com/bohemestudio</a>
 			</li>
 			<li>
+				<a class="follow-behance animate-this" href="https://www.behance.net/bohemestudio" target="_blank">behance.net/bohemestudio/</a>
+			</li>				
+			<li>
 				<a class="follow-linkedin animate-this" href="https://uk.linkedin.com/in/marodriguezgarcia" target="_blank">uk.linkedin.com/in/marodriguezgarcia/</a>
-			</li>
+			</li>		
 			<li>
 				<a class="follow-mail animate-this" href="mailto:contact@bohemestudio.com" target="_blank">contact@bohemestudio.com</a>
 			</li>						
